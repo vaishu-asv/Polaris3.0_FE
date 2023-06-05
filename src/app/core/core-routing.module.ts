@@ -1,4 +1,5 @@
 
+import { BaselistComponent } from './baselist/baselist.component';
 import { BaselineComponent } from './baseline/baseline.component';
 import { CreateBaseComponent } from './create-base/create-base.component';
 import { BaselineCreationHybridecommonComponent } from './baseline-creation-hybridecommon/baseline-creation-hybridecommon.component';
@@ -15,6 +16,8 @@ const routes: Routes = [
 
 
   { path: 'baseline', component: BaselineComponent },
+
+  { path: 'baselist', component: BaselistComponent },
 ];
 
 @NgModule({
