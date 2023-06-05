@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 
 import { ModulesRoutingModule } from './modules-routing.module';
 import { FrameComponent } from './frame/frame.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 
 @NgModule({
   declarations: [
-    FrameComponent
+    FrameComponent,
+    DropdownComponent
   ],
   imports: [
     CommonModule,
