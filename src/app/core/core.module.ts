@@ -7,6 +7,7 @@ import { BaselineCreationHybridcommonComponent } from './baseline-creation-hybri
 import { BaselineCreationHybridecommonComponent } from './baseline-creation-hybridecommon/baseline-creation-hybridecommon.component';
 import { CreateBaseComponent } from './create-base/create-base.component';
 import { BaselineComponent } from './baseline/baseline.component';
+import { BaselistComponent } from './baselist/baselist.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { BaselineComponent } from './baseline/baseline.component';
     BaselineCreationHybridcommonComponent,
     BaselineCreationHybridecommonComponent,
     CreateBaseComponent,
-    BaselineComponent
+    BaselineComponent,
+    BaselistComponent
   ],
   imports: [
     CommonModule,
