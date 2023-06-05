@@ -1,23 +1,15 @@
-
-import { BaselistComponent } from './baselist/baselist.component';
-import { BaselineComponent } from './baseline/baseline.component';
+import { BaseLineListFinalComponent } from './base-line-list-final/base-line-list-final.component';
+import { DashBoardComponent } from './dash-board/dash-board.component';
 import { CreateBaseComponent } from './create-base/create-base.component';
-import { BaselineCreationHybridecommonComponent } from './baseline-creation-hybridecommon/baseline-creation-hybridecommon.component';
-import { BaselineCreationHybridcommonComponent } from './baseline-creation-hybridcommon/baseline-creation-hybridcommon.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: 'baseline-creation-hybridcommon', component: BaselineCreationHybridcommonComponent },
-
-  { path: 'baseline-creation-hybridecommon', component: BaselineCreationHybridecommonComponent },
-
   { path: 'create-base', component: CreateBaseComponent },
 
+  { path: 'dash-board', component: DashBoardComponent },
 
-  { path: 'baseline', component: BaselineComponent },
-
-  { path: 'baselist', component: BaselistComponent },
+  { path: 'base-line-list-final', component: BaseLineListFinalComponent },
 ];
 
 @NgModule({
